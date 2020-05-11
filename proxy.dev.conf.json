@@ -1,0 +1,8 @@
+{
+  "/repos": {
+    "target": "https://api.github.com",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}

@@ -1,0 +1,5 @@
+<div class="data-container">
+  <ng-container *ngFor="let item of data">
+    <app-data-cube class="content" [propertyName]="item.propertyName" [value]="item.value"></app-data-cube>
+  </ng-container>
+</div>
