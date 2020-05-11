@@ -12,7 +12,7 @@ export class DataPageComponent implements OnInit {
   data = [
     {
       propertyName: 'Repository Name',
-      value: undefined
+      value: 'Angular'
     },
     {
       propertyName: 'watchers_count',
