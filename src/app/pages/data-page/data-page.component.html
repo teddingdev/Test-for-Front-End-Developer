@@ -1,4 +1,5 @@
 <div class="data-container">
+  <app-data-cube class="content" propertyName="Current Time" [value]="currentTime"></app-data-cube>
   <ng-container *ngFor="let item of data">
     <app-data-cube class="content" [propertyName]="item.propertyName" [value]="item.value"></app-data-cube>
   </ng-container>
